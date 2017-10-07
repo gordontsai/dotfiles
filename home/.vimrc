@@ -12,6 +12,7 @@ Plug 'tpope/vim-jdaddy'
 Plug 'tpope/vim-obsession'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 "surround
@@ -53,7 +54,7 @@ let g:python_recommended_style = 0
 set number
 set cc=80
 
-set background=dark
+set background=light
 
 set history=700
 
@@ -76,6 +77,8 @@ nmap <leader>w :call DeleteTrailingWS()<cr>:w<cr>
 nmap <leader>. :w<cr>
 nmap <leader>; :q<cr>
 
+"Changes visual mode so that you don't have to double click >> in order to tab
+"count and then indent will indent that many times
 nnoremap > :<C-u>execute "normal! v".v:count.">"<cr>
 nnoremap < :<C-u>execute "normal! v".v:count."<"<cr>
 vnoremap > >`[V`]

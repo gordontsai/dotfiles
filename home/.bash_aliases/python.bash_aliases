@@ -1,6 +1,6 @@
 #!/bin/bash
 
-alias p='python3'
-alias python='python3'
-alias pip='pip3'
+alias p='python'
+alias python='python'
+alias pip='pip'
 alias psi='python setup.py install'
