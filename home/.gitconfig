@@ -1,10 +1,11 @@
 [credential]
 	helper =
 [user]
-	name = Saurav Mitra
+	name = gordontsai
+	email = gtsai13@gmail.com
 [alias]
 	root = !pwd
-[url "https://github.com/sauravm97/"]
+[url "https://github.com/gordontsai/"]
 	insteadOf = _my:
-[url "git@github:sauravm97/"]
+[url "git@github:gordontsai/"]
 	insteadOf = my:
