@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PATH=/Users/gordontsai/anaconda3/bin:$PATH
+
 [ -s ~/.profile ] && . ~/.profile
 [ -s ~/.git-completion.bash ] && . ~/.git-completion.bash
 [ -s ~/.iterm2_shell_integration.bash ] && . ~/.iterm2_shell_integration.bash
@@ -96,3 +98,5 @@ fi
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+source activate py36
