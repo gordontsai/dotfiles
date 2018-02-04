@@ -99,4 +99,8 @@ fi
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# Vim path to brew
+export PATH="/usr/local/Cellar/vim/8.0.1450/bin:$PATH"
+
+
 source activate py36
