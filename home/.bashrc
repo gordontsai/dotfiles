@@ -101,6 +101,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Vim path to brew
 export PATH="/usr/local/Cellar/vim/8.0.1450/bin:$PATH"
-
-
-source activate py36
